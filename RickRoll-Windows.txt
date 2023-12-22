@@ -1,0 +1,6 @@
+REM windows domain Rejoin
+WINDOWS r
+DELAY 1000
+STRING https://youtu.be/uHgt8giw1LY?si=6tlSKS_5CeXqCgKB
+ENTER
+F11
